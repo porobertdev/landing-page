@@ -42,6 +42,30 @@ body {
     text-align: center;
 }
 
+/* TESTIMONIAL SECTION */
+.testimonial.section {
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+figure {
+    width: 900px;
+    padding: 50px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+figcaption {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .header .right {
     width: 600px;
     height: 200px;
