@@ -21,6 +21,12 @@ body {
     justify-content: space-between;
 }
 
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
 .header .right {
     width: 600px;
     height: 200px;
