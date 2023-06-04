@@ -109,8 +109,9 @@ blockquote {
 figcaption {
     display: flex;
     justify-content: flex-end;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
+    margin-right: 170px;
 }
 
 /* SIGN-UP SECTION */
