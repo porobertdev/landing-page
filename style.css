@@ -84,6 +84,16 @@ figcaption {
     align-items: center;
 }
 
+/* FOOTER SECTION */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+    background-color: #1F2937;
+}
+
 .header .right {
     width: 600px;
     height: 200px;
