@@ -7,3 +7,7 @@ body {
 .header {
     display: flex;
 }
+
+.header.section {
+    justify-content: center;
+}
