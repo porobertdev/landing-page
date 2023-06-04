@@ -8,8 +8,11 @@ body {
     display: flex;
 }
 
+/* HEADER SECTION */
 .header.section {
     justify-content: center;
+    background-color: #1F2937;
+    color: white;
 }
 
 .header.content {
@@ -21,10 +24,48 @@ body {
     justify-content: space-between;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    align-self: center;
+    font-weight: bold;
+}
+
 .navbar {
     list-style: none;
     display: flex;
     gap: 25px;
+}
+
+.header .left {
+    width: 360px;
+}
+
+.header .left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.header .left p {
+    margin: 8px 0;
+}
+
+.header.bottom {
+    padding: 100px 0;
+    align-items: center;
+    gap: 60px;
+}
+
+#btn-sign-up {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 23px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+
 }
 
 /* INFO SECTION */
