@@ -16,6 +16,11 @@ body {
     flex-direction: column;
 }
 
+.header.top,
+.header.bottom {
+    justify-content: space-between;
+}
+
 .header .right {
     width: 600px;
     height: 200px;
