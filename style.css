@@ -27,6 +27,13 @@ body {
     gap: 25px;
 }
 
+/* INFO SECTION */
+.info.section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .header .right {
     width: 600px;
     height: 200px;
