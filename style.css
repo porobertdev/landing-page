@@ -12,6 +12,10 @@ body {
     justify-content: center;
 }
 
+.header.content {
+    flex-direction: column;
+}
+
 .header .right {
     width: 600px;
     height: 200px;
