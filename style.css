@@ -66,6 +66,24 @@ figcaption {
     font-weight: bold;
 }
 
+/* SIGN-UP SECTION */
+.sign-up.section {
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.rectangle {
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .header .right {
     width: 600px;
     height: 200px;
