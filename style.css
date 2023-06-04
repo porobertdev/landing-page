@@ -69,6 +69,10 @@ body {
 
 }
 
+.sign-up.section #btn-sign-up {
+    border: 2px solid white;
+}
+
 /* INFO SECTION */
 .info.section {
     flex-direction: column;
@@ -119,17 +123,27 @@ figcaption {
     justify-content: center;
     align-items: center;
     padding: 100px;
+    color: white;
 }
 
 .rectangle {
     width: 800px;
     background-color: #3882F6;
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.sign-up p {
+    margin: 0;
+}
+
+#call {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* FOOTER SECTION */
